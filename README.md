@@ -1,6 +1,22 @@
 camera_degree
 =============
 
+### prerequisite
+* jetson_inference 필요(https://github.com/dusty-nv/jetson-inference)
+```
+$ cd ~
+$ sudo apt-get install git cmake
+$ git clone --recursive https://github.com/dusty-nv/jetson-inference
+$ cd jetson-inference
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make -j$(nproc)
+$ sudo make install
+$ sudo ldconfig
+```
+
+
 ### 설치법
 ```
   $ git clone https://github.com/khk1262/camera_degree.git
