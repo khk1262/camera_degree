@@ -34,7 +34,7 @@ $ sudo ldconfig
 * cart_main_pc에서 명령어 실행
 ```
   $ cd ~
-  $ ./cart_tracking_main.sh // main_pc 상에서 해당 명령어 실행시 한번에 전체 실행
+  $ ./cart_tracking_main.sh //main_pc 상에서 해당 명령어 실행시 한번에 전체 실행
 ```
   
   
