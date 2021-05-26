@@ -15,7 +15,7 @@ $ make -j$(nproc)
 $ sudo make install
 $ sudo ldconfig
 ```
-
+- - -
 
 ### 설치법
 ```
