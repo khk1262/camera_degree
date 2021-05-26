@@ -7,3 +7,8 @@ camera_degree
   $ cd camera_degree
   $ catkin_make
 ```
+
+### 실행 shell script
+* camera_degree 폴더 내에 존재하는 run_all_sh 폴더
+  * xavier
+```
