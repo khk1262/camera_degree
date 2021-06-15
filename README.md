@@ -18,7 +18,7 @@ $ sudo ldconfig
 ```
 * camera_degree 폴더 내에 존재하는 modify_jetson_inference 폴더
   * 앞서 설치한 ros_deep_learning/src/node_detectnet.cpp 파일을 modify_jetson_inference 폴더내 node_detectnet.cpp 파일로 변경 수정
-* enter to ros_deep_learning/launch/detectnet.ros1.launch, then change <arg name="input" default="csi://0"/> to <arg name="input" default="v4l2:///dev/video0"/>
+* enter to ros_deep_learning/launch/detectnet.ros1.launch, then change default="csi://0" to default="v4l2:///dev/video0"
 - - -
 
 ### 설치법
