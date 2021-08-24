@@ -37,5 +37,9 @@ $ sudo ldconfig
   $ cd ~
   $ ./cart_tracking_main.sh 
 ```
+
+### 사용된 카메라 모듈
+
+<img src="https://github.com/khk1262/camera_degree/blob/main/pic/%EA%B4%91%EA%B0%81%20%EC%B9%B4%EB%A9%94%EB%9D%BC.jpg" width="700" height="370">  
   
-  
+
