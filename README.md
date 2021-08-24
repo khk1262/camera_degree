@@ -43,10 +43,12 @@ $ sudo ldconfig
 <img src="https://github.com/khk1262/camera_degree/blob/main/pic/%EA%B4%91%EA%B0%81%20%EC%B9%B4%EB%A9%94%EB%9D%BC.jpg" width="500" height="370"> <img src="https://github.com/khk1262/camera_degree/blob/main/pic/%EC%A0%AF%EC%8A%A8%20%EC%9E%90%EB%B9%84%EC%97%90.jpg" width="500" height="370">  
 ---
 1. 카메라 모듈
+- GOOSERA 웹 카메라 풀HD 1080P 300만 화소 120광각 웹캠
 - fov 120 degree
 - 640 X 320 사이즈로 이미지 read
 
-2. 젯슨 자비에
+2. 컴퓨팅 모듈
+- jetson xavier
 - Octal-core NVIDIA Carmel ARMv8.2 CPU @ 2.26GHz
 - 512-core Volta GPU @ with 64 Tensor Cores
 - Dual Deep Learning Accelerator (DLA) engines
