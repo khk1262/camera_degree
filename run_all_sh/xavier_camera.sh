@@ -14,4 +14,4 @@ elif [[ -e /dev/video2 ]]; then
 	video=2
 fi
 
-roslaunch camera_degree camera.launch input:="v4l2;///dev/video$video"
+roslaunch camera_degree camera.launch input:="v4l2:///dev/video$video"

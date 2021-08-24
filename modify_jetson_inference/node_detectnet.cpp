@@ -22,7 +22,7 @@
 
 #include "ros_compat.h"
 #include "image_converter.h"
-
+#include <std_msgs/Bool.h>
 #include <jetson-inference/detectNet.h>
 
 #include <unordered_map>
