@@ -12,6 +12,7 @@
 
 using namespace std;
 
+const float fov = 110;
 const float degree_offset = 320;
 
 bool is_exist = false;
@@ -98,9 +99,9 @@ void camera_cb(const vision_msgs::Detection2DArray::ConstPtr &input){
 
     if(found_person && !no_judge){
 
-        float degree = atan2((center_degree-degree_offset)*tan(39*M_PI/180), 320);
-        float degree2 = atan2((min_degree-degree_offset)*tan(39*M_PI/180), 320);
-        float degree3 = atan2((max_degree-degree_offset)*tan(39*M_PI/180), 320);
+        float degree = atan2((center_degree-degree_offset)*tan((fov / 2) *M_PI/180), degree_offset);
+        float degree2 = atan2((min_degree-degree_offset)*tan((fov / 2) *M_PI/180), degree_offset);
+        float degree3 = atan2((max_degree-degree_offset)*tan((fov / 2) *M_PI/180), degree_offset);
 
         degree_msgs.data.clear();
         degree_msgs.data.push_back(degree * 180/M_PI);
