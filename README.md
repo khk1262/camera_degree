@@ -47,7 +47,8 @@ $ sudo ldconfig
 - fov 120 degree
 - 640 X 320 사이즈로 이미지 read
 
-2. 젯슨 자비에
+2. 컴퓨팅 모듈
+- 
 - Octal-core NVIDIA Carmel ARMv8.2 CPU @ 2.26GHz
 - 512-core Volta GPU @ with 64 Tensor Cores
 - Dual Deep Learning Accelerator (DLA) engines
