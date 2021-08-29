@@ -12,8 +12,8 @@
 
 using namespace std;
 
-const float fov = 110;
-const float degree_offset = 320;
+const float fov = 110; // 카메라 화각을 조정하는 변수
+const float degree_offset = 320; // 카메라 모듈로부터 읽은 화면 해상도에 따른 offset(픽셀 좌표계에서 원점을 잡기 위함)
 
 bool is_exist = false;
 
