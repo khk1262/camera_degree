@@ -18,6 +18,7 @@ $ sudo ldconfig
 ```
 * camera_degree 폴더 내에 존재하는 modify_jetson_inference 폴더
   * 앞서 설치한 ros_deep_learning/src/node_detectnet.cpp 파일을 modify_jetson_inference 폴더내 node_detectnet.cpp 파일로 변경 수정
+  * 수정된 내용은 기존 jetson_inference 코드의 경우 전방에 객체가 탐지되지 않으면 메시지를 일절 보내지 않는 문제가 있어 이를 false 값을 보내도록 수정
 * enter to ros_deep_learning/launch/detectnet.ros1.launch, then change default="csi://0" to default="v4l2:///dev/video0"
 - - -
 
