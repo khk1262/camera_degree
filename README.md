@@ -30,10 +30,10 @@ $ sudo ldconfig
 ```
 
 ### 실행 shell script
-* camera_degree 폴더 내에 존재하는 run_all_sh 폴더
-  * xavier 쪽에 두어야 할 파일 : xavier_camera.sh
-  * cart_main_pc 쪽에 두어야 할 파일 : cart_control.sh, cart_tracking_main.sh
-* cart_main_pc에서 명령어 실행
+* camera_degree/run_all_sh 폴더 내
+  * jetson xavier home 화면에 두어야 할 파일 : xavier_camera.sh
+  * cart_main_pc home 화면에 두어야 할 파일 : cart_control.sh, cart_tracking_main.sh
+* cart_main_pc에서 밑의 명령어 실행
 ```
   $ cd ~
   $ ./cart_tracking_main.sh 
@@ -54,3 +54,4 @@ $ sudo ldconfig
 - 512-core Volta GPU @ with 64 Tensor Cores
 - Dual Deep Learning Accelerator (DLA) engines
 - 16GB 256-bit LPDDR4x @ 2133MHz (137GB/s)
+- 산업용 pc와의 ros 통신을 위해 랜선을 이용
