@@ -16,7 +16,7 @@ $ make -j$(nproc)
 $ sudo make install
 $ sudo ldconfig
 ```
-* camera_degree 폴더 내에 존재하는 modify_jetson_inference 폴더
+* 위의 사전 설치 후 수정사항
   * 앞서 설치한 ros_deep_learning/src/node_detectnet.cpp 파일을 modify_jetson_inference 폴더내 node_detectnet.cpp 파일로 변경 수정
   * 수정된 내용은 기존 jetson_inference 코드의 경우 전방에 객체가 탐지되지 않으면 메시지를 일절 보내지 않는 문제가 있어 이를 false 값을 보내도록 함
 * ros_deep_learning/launch/detectnet.ros1.launch 파일로 들어간 후, default="csi://0" 라고 되어있는 코드를 default="v4l2:///dev/video0" 로 변경
